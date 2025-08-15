@@ -18,8 +18,8 @@ def prev_click():
 
 
 l1 = tk.Label(window, font=('Tahoma', 20), text=levels[current_level])
-next_btn = tk.Button(window, font=('Tahoma', 20), text='Next', command=next_click)
-prev_btn = tk.Button(window, font=('Tahoma', 20), text='Previous', command=prev_click)
+next_btn = tk.Button(window, font=('Tahoma', 20), text='بعدی', command=next_click)
+prev_btn = tk.Button(window, font=('Tahoma', 20), text='قبلی', command=prev_click)
 l1.pack()
 next_btn.pack()
 prev_btn.pack()
