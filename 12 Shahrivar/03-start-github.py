@@ -2,7 +2,6 @@ import pyautogui as pg
 import keyboard
 import time
 
-
 while True:
     if keyboard.is_pressed('x'):
         pg.moveTo(954, 1054, duration=1)
